@@ -1,0 +1,25 @@
+nav ul {
+    display: flex;
+    justify-content: space-between; 
+    padding: 0;
+    margin-top: 5px;
+    list-style-type: none;
+    background-color: lightslategrey;
+    padding: 10px;
+    
+}
+
+
+nav ul li a{
+    text-decoration: none; 
+    color:lightblue; 
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+
+nav ul li a:hover{
+    color: lightgray;
+    background-color: aquamarine;
+    text-decoration: underline;
+}
